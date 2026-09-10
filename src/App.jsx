@@ -347,7 +347,7 @@ function Shell({ view, setView, children }) {
 
       <style>{`
         @media (max-width: 780px) {
-          .s8-sidebar { display: none; }
+          .s8-sidebar { display: none !important; }
           .s8-bottomnav { display: flex !important; }
         }
       `}</style>
